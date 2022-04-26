@@ -1,12 +1,12 @@
 {
     "name": "creativetimofficial/material-dashboard",
-    "description": "Material Dashboard - Free Bootstrap Material Design Admin",
+    "description": "Equiverse is an applicant-first hiring platform",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "Creative Tim",
-            "email": "hello@creative-tim.com"
+            "name": "Equiverse",
+            "email": "equiverse.company@gmail.com"
         }
     ],
     "require": {}
