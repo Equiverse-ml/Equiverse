@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/material-dashboard.git"
+ 
   },
   "keywords": [
     "material dashboard",
     "bootstrap 5",
     "dashboard",
-    "creative tim",
+    " ",
     "html dashboard",
     "html css dashboard",
     "web dashboard",
@@ -31,10 +31,10 @@
     "frontend",
     "responsive bootstrap dashboard"
   ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+ 
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/material-dashboard/issues"
+ 
   },
   "devDependencies": {
     "gulp": "^4.0.2",
@@ -46,5 +46,5 @@
     "gulp-open": "^3.0.1",
     "sass": "^1.49.9"
   },
-  "homepage": "http://creative-tim.com/product/material-dashboard"
+ 
 }
