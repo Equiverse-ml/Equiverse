@@ -10266,6 +10266,10 @@ fieldset:disabled .btn {
   --bs-text-opacity: 1;
 }
 
+.bg-blue {
+  background-color: #33A1FF !important;
+}
+
 .bg-primary {
   background-color: #e91e63 !important;
 }
@@ -19838,10 +19842,10 @@ fieldset:disabled .btn {
 =========================================================
 
 * Product Page:  product/material-dashboard
- 
+
 * Licensed under MIT (site.license)
 
- 
+
 
 =========================================================
 
