@@ -3007,11 +3007,11 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked[type="checkbox"] {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  background-image: linear-gradient(195deg, #2accff 0%, #7291ff 100%);
 }
 
 .form-check-input:checked[type="radio"] {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  background-image: linear-gradient(195deg, #2accff 0%, #7291ff 100%);
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
@@ -3592,14 +3592,14 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
   color: #000;
-  background-color: #ec407a;
+  background-color: #2accff;
   border-color: #eb3573;
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
   color: #000;
-  background-color: #ec407a;
+  background-color: #2accff;
   border-color: #eb3573;
   box-shadow: 0 0 0 0.2rem rgba(198, 26, 84, 0.5);
 }
@@ -19853,7 +19853,7 @@ fieldset:disabled .btn {
 
 */
 .alert-primary {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  background-image: linear-gradient(195deg, #2accff 0%, #7291ff 100%);
 }
 
 .alert-secondary {
@@ -20772,7 +20772,7 @@ fieldset:disabled .btn {
 }
 
 .card.card-background.card-background-mask-primary:after {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  background-image: linear-gradient(195deg, #2accff 0%, #7291ff 100%);
   opacity: .85;
 }
 
@@ -20931,7 +20931,7 @@ fieldset:disabled .btn {
   top: 0;
   content: "";
   border-radius: 0.5rem;
-  background-image: linear-gradient(195deg, #EC407A, #D81B60);
+  background-image: linear-gradient(195deg, #2accff, #7291ff);
   opacity: .85;
 }
 
@@ -22045,7 +22045,7 @@ body.dark-version {
   width: 0.8375rem;
   height: 0.8375rem;
   border-radius: 50%;
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%), var(--bs-gradient);
+  background-image: linear-gradient(195deg, #2accff 0%, #7291ff 100%), var(--bs-gradient);
   opacity: 0;
   left: 0;
   right: 0;
@@ -22206,7 +22206,7 @@ label,
 }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  background-image: linear-gradient(195deg, #2accff 0%, #7291ff 100%);
 }
 
 .bg-gradient-secondary {
@@ -22459,11 +22459,11 @@ label,
 }
 
 svg.text-primary .color-foreground {
-  fill: #EC407A;
+  fill: #2accff;
 }
 
 svg.text-primary .color-background {
-  fill: #D81B60;
+  fill: #7291ff;
 }
 
 svg.text-secondary .color-foreground {
@@ -22581,7 +22581,7 @@ svg.text-dark .color-background {
 }
 
 *.gradient-animation {
-  background: linear-gradient(-45deg, #49a3f1, #F44335, #fb8c00, #EC407A, #344767);
+  background: linear-gradient(-45deg, #49a3f1, #F44335, #fb8c00, #2accff, #344767);
   background-size: 400% 400% !important;
   animation: gradient 10s ease infinite;
 }
@@ -24262,8 +24262,8 @@ body:not(.dark-version) .sidenav.bg-transparent .collapse .nav-item .nav-link.ac
 }
 
 .nav.nav-pills.nav-pills-primary .moving-tab .nav-link.active {
-  background: #EC407A;
-  color: #EC407A;
+  background: #2accff;
+  color: #2accff;
 }
 
 .nav.nav-pills.nav-pills-info {
@@ -24383,7 +24383,7 @@ body:not(.dark-version) .sidenav.bg-transparent .collapse .nav-item .nav-link.ac
 .pagination.pagination-primary .page-item.active>.page-link,
 .pagination.pagination-primary .page-item.active>.page-link:focus,
 .pagination.pagination-primary .page-item.active>.page-link:hover {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  background-image: linear-gradient(195deg, #2accff 0%, #7291ff 100%);
   border: none;
 }
 
@@ -25587,7 +25587,7 @@ p {
 }
 
 .text-gradient.text-primary {
-  background-image: linear-gradient(195deg, #EC407A, #D81B60);
+  background-image: linear-gradient(195deg, #2accff, #7291ff);
 }
 
 .text-gradient.text-info {
