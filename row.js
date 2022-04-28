@@ -6,7 +6,7 @@ function getRow(a,b,c,d){
             <td>
             <div class="d-flex px-2 py-1">
                 <div>
-                <img src="./assets/img/small-logos/logo-xd.svg" class="avatar avatar-sm me-3" alt="xd">
+                <img src="../assets/img/small-logos/logo-xd.svg" class="avatar avatar-sm me-3" alt="xd">
                 </div>
                 <div class="d-flex flex-column justify-content-center">
                 <h6 class="mb-0 text-sm">${a}</h6>
