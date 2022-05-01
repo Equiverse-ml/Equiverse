@@ -1,0 +1,7 @@
+requests
+fastapi
+pydantic
+uvicorn
+python-multipart 
+bs4
+pyuser_agent
