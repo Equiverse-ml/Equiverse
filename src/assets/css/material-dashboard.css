@@ -4,6 +4,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
 :root {
   --bs-blue: #63B3ED;
   --bs-indigo: #596CFF;
@@ -65,6 +68,129 @@
 *::after {
   box-sizing: border-box;
 }
+
+
+.sidenav-header{
+  padding: 25px;
+  /* height: 20px; */
+}
+
+.navbar-brand-img{
+  max-height: 30px !important;
+}
+
+body{
+  font-family: 'Outfit', sans-serif !important;
+}
+
+.page-title{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 60;
+  margin-top: 25px;
+}
+
+td{
+  padding: 30px inherit !important;
+}
+
+.status-pill{
+  width: min-content;
+  padding: 3px 10px;
+  border-radius: 100px;
+  background-color: lightblue
+}
+
+.status-pill.Rejected{
+  background-color: rgb(255, 220, 220);
+  color: rgb(173, 50, 50);
+}
+
+.status-pill.Shortlisted{
+  background-color: rgb(181, 255, 214);
+  color: rgb(15, 123, 68);
+}
+
+.feedback-pill{
+  width: min-content;
+  padding: 3px 10px;
+  border-radius: 100px;
+  background-color: lightblue
+}
+
+.feedback-pill.Pending{
+  background-color: rgb(213, 238, 255);
+  color: rgb(8, 127, 173);
+}
+
+.feedback-pill.Given{
+  background-color: rgb(255, 250, 201);
+  color: rgb(169, 145, 23);
+}
+
+.listing-btn{
+  height: min-content;
+  padding: 4px 15px !important;
+  border: none;
+
+  background-color: #5468ff !important;
+  border: 1px solid #fff;
+  color: #fff;
+  transition-duration: 300ms;
+  border-radius: 5px;
+}
+
+.listing-btn:hover{
+  color: #5468ff;
+  border: 1px solid #5468ff;
+  background-color: #fff !important;
+}
+
+.filter-btn{
+  color: #fff;
+  padding: 4px 10px 0 10px;
+  border-radius: 5px;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.filter-btn:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-modal{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  /* height: 400px; */
+  /* width: 600px; */
+  background-color: #fff;
+  padding: 50px 90px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+select{
+  width: 300px;
+  border: none;
+  background: rgb(232, 232, 232);
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+#filter-modal-close{
+  margin-top: 40px;
+}
+
+h3{
+  font-family: 'Outfit', sans-serif !important;
+}
+
+/* .sidenav-header img{
+  height: 20px;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   :root {

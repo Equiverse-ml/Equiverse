@@ -1,17 +1,4 @@
-<!--
-=========================================================
-* Equiverse 2 - v=3.0.2
-=========================================================
 
-* Product Page:  product/material-dashboard
-
-* Licensed under MIT ( license)
-* Coded by
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,9 +30,7 @@
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
 
-        <img src="./src/assets/img/logo.png" class="navbar-brand-img h-100" alt="main_logo">
-        <span class="ms-1 font-weight-bold text-white">Equiverse</span>
-      </a>
+        <img src="./src/assets/img/logo.png" class="navbar-brand-img h-100" alt="main_logo">      </a>
     </div>
     <hr class="horizontal light mt-0 mb-2">
     <div class="collapse navbar-collapse  w-auto  max-height-vh-100" id="sidenav-collapse-main">
@@ -132,7 +117,7 @@
       <div class="container-fluid py-1 px-3">
         <nav aria-label="breadcrumb">
 
-          <h6 class="font-weight-bolder mb-0">Dashboard</h6>
+          <h2 class="font-weight-bolder mb-0 page-title">Home</h2>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -180,8 +165,8 @@
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-header p-3 pt-2">
-              <div class="icon icon-lg icon-shape bg-blue shadow-blue text-center border-radius-xl mt-n4 position-absolute">
-                <i class="material-icons opacity-10">pageview</i>
+              <div class="icon icon-lg icon-shape bg-gradient-dark shadow-info text-center border-radius-xl mt-n4 position-absolute">
+                <i class="material-icons opacity-10">remove_red_eye</i>
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Viewed Resume</p>
@@ -293,42 +278,54 @@
         </div>
       </div>
       -->
-      <div class="row mt-4">
-        <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
-          <div class="card">
-            <div class="card-header pb-0">
-              <div class="row">
-                <div class="col-lg-6 col-7">
-                  <h6>Jobs Recommended For SDE
-                    <i class='fa fa-fire' style='color: red'></i></h6>
-                  <p class="text-sm mb-0">
-                   
-                     
-                  </p>
-                </div>
-                <div class="col-lg-6 col-5 my-auto text-end">
-                  <div class="dropdown float-lg-end pe-4">
-
-
-                  </div>
-                </div>
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="card-header p-0 position-relative mt-n4   z-index-2">
+            <div class="card-header p-0 position-relative mt-n4   z-index-2">
+              <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3 px-4 d-flex justify-content-between">
+                <h6 class="text-white text-capitalize ps-3">Jobs Applied </h6>
+                <div class="filter-btn" id="open-filters">Filters</div>
               </div>
+
+              <div class="filter-modal" id="filter-modal">
+                <h3>Filters</h3>
+
+                <div>
+                  <label for="">Filter by status</label><br>
+                <select name="" id="filter-status">
+                  <option value="Choose">Choose</option>
+                  <option value="Shortlisted">Shortlisted</option>
+                  <option value="Rejected">Rejected</option>
+                </select>
+                </div>
+
+
+
+                <button id="filter-modal-close" class="listing-btn">Close</button>
+              </div>
+               
             </div>
+
+            </div>
+
             <div class="card-body px-0 pb-2">
               <div class="table-responsive">
                 <table class="table align-items-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Companies</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Apply Before</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Place</th>
-                     <!--
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Company</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Salary</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Applied</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Stauts</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Chances of Selection</th>
 
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Chances of Shortlisting</th>
-                      -->
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Feedback</th>
+                      
+                      <th></th>
                     </tr>
+                    
                   </thead>
-                  <tbody id="t1">
+                  <tbody id="t2">
 
 
                   </tbody>
@@ -337,7 +334,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <!-- <div class="col-lg-4 col-md-6">
           <div class="card h-100">
             <div class="card-header pb-0">
               <h6>Orders overview</h6>
@@ -405,7 +402,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <footer class="footer py-4  ">
         <div class="container-fluid">
@@ -514,7 +511,7 @@
   <!--   Core JS Files   -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="./src/assets/js/core/popper.min.js"></script>
-  <script src="./src/assets/js/row.js"></script>
+  <script src="./src/assets/js/table.js"></script>
  
   <script src="./src/assets/js/core/bootstrap.min.js"></script>
   <script src="./src/assets/js/plugins/perfect-scrollbar.min.js"></script>
