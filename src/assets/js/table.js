@@ -118,7 +118,7 @@ var s={
         "6 days ago",
         "Rejected",
         "75",
-        "Pending"
+        "Given"
       ],
        ]
 }
