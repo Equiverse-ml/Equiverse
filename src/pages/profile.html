@@ -48,7 +48,7 @@
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">table_view</i>
             </div>
-            <span class="nav-link-text ms-1">Applications</span>
+            <span class="nav-link-text ms-1">Discover Jobs</span>
           </a>
         </li>
 
@@ -100,7 +100,15 @@
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">table_view</i>
             </div>
-            <span class="nav-link-text ms-1">Applications</span>
+            <span class="nav-link-text ms-1">Discover Jobs</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="messages.html">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">table_view</i>
+            </div>
+            <span class="nav-link-text ms-1">Chats</span>
           </a>
         </li>
 
@@ -326,7 +334,10 @@
                   <p class="text-sm">
                     Hello! I am a Senior at UC Berkeley majoring in Computer Science and Data Science. I have experience in front-end, back-end development, and machine learning through prior internships. I am interested in joining the workforce as a Software Engineer with hopes of making the world more equitable. Feel free to reach out regarding any opportunities.
                   </p>
-                  <hr class="horizontal gray-light my-4">
+                  <a id="github-button" class="btn btn-block btn-social btn-github">
+                    <i class="fa fa-github"></i> Sign in with Github
+                  </a>
+                  <hr class="horizontal gray-light my-0">
                   <ul class="list-group">
                     <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Full Name:</strong> &nbsp; Yuvaraj T</li>
                     <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; (44) 123 1234 123</li>
@@ -384,5 +395,20 @@
   <!-- Control Center for Equiverse: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/material-dashboard.min.js?v=3.0.2"></script>
 </body>
+
+<script>
+
+$('#github-button').on('click', function() {
+  // Initialize with your OAuth.io app public key
+  OAuth.initialize('gZeK0rjdjMpH70JACRM_kaKLUIc');
+  // Use popup for OAuth
+  OAuth.popup('github').then(github => {
+    console.log(github);
+    // Retrieves user data from oauth provider
+    console.log(github.me());
+  });
+})
+
+</script>
 
 </html>
