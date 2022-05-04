@@ -136,7 +136,7 @@ var s={
 
 
    // })
-    //.catch(err=>console.log)
+    //.atch(err=>console.log)
 
 //let arr = JSON.parse(s)
 let finalArr = s.output
