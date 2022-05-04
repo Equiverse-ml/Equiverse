@@ -45,14 +45,10 @@ function getRow(a,b,c,d,e){
             <td>
             <div class="d-flex align-items-center">
               <span class="me-2 text-xs font-weight-bold">${e}%</span>
-              <div>
                 <div class="progress">
                   <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="${e}" aria-valuemin="0" aria-valuemax="100" style="width: ${e}%;"></div>
                 </div>
-              </div>
             </div>
-            </td>
-            <td>
             <a href="${d}">
             <button class="listing-btn">Apply</button>
             </a>
