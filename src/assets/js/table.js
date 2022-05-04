@@ -33,15 +33,15 @@ function getRow(a,b,c,d,e,f){
       <span class="text-xs font-weight-bold feedback-pill ${f}">${f}</span>
     </td>
     <td class="align-middle">
-      
+
         <i class="fa fa-ellipsis-v text-xs">
-           
+
         </i>
-      
+
     </td>
   </tr>
     `
-} 
+}
 var requestOptions = {
     method: 'GET',
     redirect: 'follow'
@@ -49,31 +49,31 @@ var requestOptions = {
 var s={
   "output": [
     [
-      "A",
-      "10000",
+      "Facebook",
+      "135000",
       "5 days ago",
       "Rejected",
       "90",
       "Pending"
     ],
     [
-        "B",
-        "60000",
+        "Amazon",
+        "125000",
         "4 days ago",
         "Shortlisted",
         "50",
         "Given"
       ],
       [
-        "C",
-        "70000",
+        "Apple",
+        "160000",
         "4 days ago",
         "Shortlisted",
         "30",
         "Given"
       ],
       [
-        "D",
+        "Google",
         "180000",
         "4 days ago",
         "Rejected",
@@ -105,7 +105,7 @@ let finalArr = s.output
 function renderTable(arr) {
 
   document.getElementById('t2').innerHTML = ''
-  
+
   arr.forEach(el => {
     let newRow = document.createElement('tr')
     newRow.innerHTML = getRow(el[0],el[1],el[2],el[3],el[4],el[5])
