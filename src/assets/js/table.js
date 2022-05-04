@@ -77,7 +77,47 @@ var s={
         "180000",
         "4 days ago",
         "Rejected",
-        "10",
+        "30",
+        "Pending"
+      ],
+      [
+        "Microsoft",
+        "110000",
+        "5 days ago",
+        "Rejected",
+        "25",
+        "Pending"
+      ],
+      [
+        "Netflix",
+        "200000",
+        "5 days ago",
+        "Shortlisted",
+        "5",
+        "Given"
+      ],
+      [
+        "Quora",
+        "210000",
+        "5 days ago",
+        "Accepted",
+        "50",
+        "Pending"
+      ],
+      [
+        "Stripe",
+        "200000",
+        "6 days ago",
+        "Shortlisted",
+        "5",
+        "Given"
+      ],
+      [
+        "Samsung",
+        "120000",
+        "6 days ago",
+        "Rejected",
+        "75",
         "Pending"
       ],
        ]
