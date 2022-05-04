@@ -24,6 +24,7 @@ function getRow(a,b,c,d,e,f){
       <span class="me-2 text-xs font-weight-bold">${e}%</span>
       <div>
         <div class="progress">
+        asdasd
           <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="${e}" aria-valuemin="0" aria-valuemax="100" style="width: ${e}%;"></div>
         </div>
       </div>
