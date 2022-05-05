@@ -4,7 +4,7 @@ function getRow(a,b,c,d){
   <tr>
   <td>
     <div class="d-flex px-2">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="/src/assets/js/jquery-3.6.0.min.js"></script>
       <div class="my-auto">
         <h6 class="mb-0 text-sm">${a}</h6>
       </div>
